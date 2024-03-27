@@ -1,0 +1,11 @@
+# Ignore Dataset
+datasets/
+
+# Ignore Documents
+documents/
+
+
+.ipynb_checkpoints/
+.DS_Store
+.env
+__pycache__/
