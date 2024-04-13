@@ -3,11 +3,6 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 
-
-
-from collections import defaultdict
-
-
 class DataPreprocessing():
     def __init__(self, directory, independent_signals, dependent_signals, sequence_length, train_size=.9, do_train_test_split = True):
         
